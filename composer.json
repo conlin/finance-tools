@@ -1,0 +1,19 @@
+{
+    "name": "colin/finance-tools",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "authors": [
+        {
+            "name": "Xiao Zhen Hua",
+            "email": "zhenhua2340@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Colin\\FinanceTools\\": "src/"
+        }
+    }
+}
