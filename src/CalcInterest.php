@@ -1,11 +1,11 @@
 <?php
 /**
  *
- * User: Colin <zhenhua2340@163.com>
+ * User: Xiao Zhen Hua <zhenhua2340@163.com>
  * Date: 2019/6/8
  */
 
-namespace Colin\FinanceTools;
+namespace ZhenHua\FinanceTools;
 
 use Carbon\Carbon;
 

@@ -1,9 +1,12 @@
 {
-    "name": "colin/finance-tools",
+    "name": "zhenhua/finance-tools",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
     },
     "authors": [
         {
@@ -13,7 +16,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Colin\\FinanceTools\\": "src/"
+            "ZhenHua\\FinanceTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZhenHua\\FinanceTools\\Tests\\" : "tests/"
         }
     }
 }
