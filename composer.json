@@ -1,9 +1,13 @@
 {
     "name": "zhenhua/finance-tools",
+    "type": "library",
+    "description": "a small tool",
+    "keywords": ["laravel", "PHP7", "tools"],
+    "homepage": "https://github.com/zhenhua2340/finance-tools",
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "nesbot/carbon": "^1.26.3 || ^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5"
